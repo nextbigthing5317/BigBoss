@@ -136,7 +136,6 @@ pymongo==3.11.3
 pyodbc==4.0.26
 pyOpenSSL==19.0.0
 pyparsing==2.4.7
-pypiwin32==223
 PyPrind==2.11.2
 pyreadline==2.1
 Pyrebase4==4.5.0
