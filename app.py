@@ -1,6 +1,5 @@
 from werkzeug.wrappers import Request, Response
 from flask import Flask, render_template, Response, request, redirect, url_for,jsonify     
-from flask_cors import cross_origin
 from firebase import firebase
 import random
 import pyrebase
