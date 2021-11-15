@@ -149,8 +149,6 @@ python-jwt==2.0.1
 pyttsx3==2.90
 pytz==2018.9
 PyWavelets==1.0.2
-pywin32==223
-pywinpty==0.5.5
 PyYAML==5.1
 pyzmq==18.0.0
 QtAwesome==0.5.7
