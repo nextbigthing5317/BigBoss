@@ -4,6 +4,7 @@ Flask==1.0.2
 pyreadline==2.1
 Pyrebase4==4.5.0
 pyrsistent==0.14.11
+gunicorn==20.1.0
 cloudpickle==0.8.0
 pickleshare==0.7.5
 requests==2.26.0
