@@ -71,6 +71,4 @@ def people():
 
 
 if __name__ == "__main__":
-    from werkzeug.serving import run_simple
-#    firebase = firebase.FirebaseApplication("https://tamilnews-28a69-default-rtdb.firebaseio.com/",None)
-    run_simple('localhost', 8555, app)
+  app.run(debug=True)
