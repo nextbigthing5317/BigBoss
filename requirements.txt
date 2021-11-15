@@ -15,12 +15,8 @@ cffi==1.12.2
 chardet==3.0.4
 charset-normalizer==2.0.7
 Click==7.0
-cycler==0.10.0
-Cython==0.29.6
-cytoolz==0.9.0.1
 dask==1.1.4
 decorator==4.4.0
-defusedxml==0.5.0
 Deprecated==1.2.13
 distributed==1.26.0
 dnspython==1.16.0
@@ -34,15 +30,12 @@ firebase==3.0.1
 Flask==1.0.2
 future==0.17.1
 gunicorn==20.1.0
-h11==0.9.0
 h2==3.2.0
 h5py==2.8.0
 heapdict==1.0.0
 hpack==3.0.0
 hstspreload==2021.10.1
 html5lib==1.0.1
-httpcore==0.9.1
-httplib2==0.20.1
 httpx==0.13.3
 hyperframe==5.2.0
 idna==2.8
@@ -50,7 +43,6 @@ imageio==2.5.0
 imagesize==1.1.0
 ipykernel==5.1.0
 ipython==7.4.0
-ipython-genutils==0.2.0
 ipywidgets==7.4.2
 isort==4.3.16
 itsdangerous==1.1.0
@@ -74,8 +66,6 @@ keyring==18.0.0
 kiwisolver==1.0.1
 lazy-object-proxy==1.3.1
 libarchive-c==2.8
-llvmlite==0.28.0
-locket==0.2.0
 lxml==4.3.2
 Markdown==3.2.1
 MarkupSafe==1.1.1
@@ -158,8 +148,6 @@ requests-toolbelt==0.9.1
 rfc3986==1.5.0
 rope==0.12.0
 rsa==4.7.2
-scikit-image==0.14.2
-scikit-learn==0.20.3
 scipy==1.2.1
 Send2Trash==1.5.0
 simplegeneric==0.8.1
