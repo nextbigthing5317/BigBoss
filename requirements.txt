@@ -16,15 +16,6 @@ cffi==1.12.2
 chardet==3.0.4
 charset-normalizer==2.0.7
 Click==7.0
-cloudpickle==0.8.0
-clyent==1.2.2
-colorama==0.4.1
-comtypes==1.1.7
-conda==4.10.3
-conda-build==3.17.8
-conda-verify==3.1.1
-contextlib2==0.5.5
-cryptography==2.6.1
 cycler==0.10.0
 Cython==0.29.6
 cytoolz==0.9.0.1
