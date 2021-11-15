@@ -4,6 +4,7 @@ from firebase import firebase
 import random
 import jwt
 import pyrebase
+import sklearn
 import pickle
 model = pickle.load(open('model.pkl','rb'))
 
