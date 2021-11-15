@@ -2,6 +2,7 @@ from werkzeug.wrappers import Request, Response
 from flask import Flask, render_template, Response, request, redirect, url_for,jsonify     
 from firebase import firebase
 import random
+import jwt
 import pyrebase
 import pickle
 model = pickle.load(open('model.pkl','rb'))
