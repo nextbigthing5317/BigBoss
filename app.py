@@ -70,7 +70,6 @@ def people():
     return render_template('index.html',text = result,image=img,desc=des);
 
 
-if __name__ == "__main__":
- #   from werkzeug.serving import run_simple
-#    firebase = firebase.FirebaseApplication("https://tamilnews-28a69-default-rtdb.firebaseio.com/",None)
-    app.run(debug=True)
+if __name__ == '__main__':
+   port = int(os.environ.get("PORT", 5000))
+   app.run(debug=True, port=port)
