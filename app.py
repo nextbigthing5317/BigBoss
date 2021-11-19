@@ -29,6 +29,10 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route("/sitemap.xml")
+def sitemap():
+  return render_template("sitemap.xml")
+
 def contestants(output):
 
     Dict = {1 : ["Oviya","Riythvika","Mugen","Losliya","Aari","Tharshan","Raju","Ciby"], 2 : 
