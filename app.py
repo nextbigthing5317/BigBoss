@@ -45,6 +45,10 @@ def contestants(output):
     r = Dict[output]
     return random.choice(r)
 
+@app.route("/refresh/", methods=["GET","POST"])
+def refresh():
+    if request.method == "POST":
+      return home()
 
 @app.route("/people/", methods=["GET","POST"])
 def people():
