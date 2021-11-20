@@ -33,6 +33,15 @@
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
 }
 
+table, th, td {
+  border:0px solid black;
+}
+.footer{
+  padding: 45px 25px;
+  width: 100%;
+  background-color: #AB2330;
+ }
+ 
 body {
      background: #252c4a; 
     font-family: "Montserrat", sans-serif;
@@ -101,10 +110,32 @@ body {
 </p>
 
 <script src="{{ url_for('static', filename='min.js')}}"></script>
+  
+  <div class="jumbotron_footer" style="padding-top: 8px; padding-bottom: 8px">
+    <div class="container">
+    <h4 class="heading__text" style="font-size: 20px;">
+			Crew: <br>
+<center>
+<table>
+    
+    <td><a href="https://www.linkedin.com/in/surya-d-b-b1132b206"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a>&nbsp;&nbsp;</td>
+	<td>Surya</td>
+  </tr>
+  <tr>
+
+    <td><a href="https://www.linkedin.com/in/rumesh-sree-k-g-74a21b18b/"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a>&nbsp;&nbsp;</td>
+	<td>Rumesh Sree</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.linkedin.com/in/aishwarya-s-b87740171/"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a>&nbsp;&nbsp;</td>
+  <td>Aishwarya</td>
+  </tr>
+ </table>
+ </center>
+		  </h4>
+        </div>
+  </div> 
+ 
+  
 </body>
-<script>
-function myFunction() {
-  location.replace("https://www.w3schools.com")
-}   
-</script>
 </html>
