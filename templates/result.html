@@ -29,17 +29,32 @@
 
 }
 #footer {
-            position: relative;
-            padding: 30px 30px 30px 30px;
-            width: 100%;
-            height: 80px;
-            background:#AB2330;
-        }
-
-table, th, td {
-  border:0px solid black;
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  height: 170px;
+  background:black;
 }
 
+.parent {
+  text-align: center;
+  line-height: 10px;
+}
+.child {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 10px;
+}
+.child1 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 10px;
+}
+.child2 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 10px;
+}
  
 body {
      background: #252c4a; 
@@ -106,17 +121,20 @@ body {
 
 
 <div id="footer">
-   <h4>Crew:</h4>
-                                                  
-<a href="https://www.linkedin.com/in/surya-d-b-b1132b206"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a>
-<p>Surya</p>
+  <h4 style="text-align: center;">Crew:</h4>
+  <br>                           
+  <div class='parent'>
+    <div class='child'style="padding-left: 6px;"><a href="https://www.linkedin.com/in/surya-d-b-b1132b206"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a></div>
+    <div class='child' style="padding-right: 2px;">Surya</div>
+    <br>
 
-<a href="https://www.linkedin.com/in/rumesh-sree-k-g-74a21b18b/"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a>
-<p>Rumesh</p>
-                                                                                                                                    
-
-<a href="https://www.linkedin.com/in/aishwarya-s-b87740171/"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a>
-<p>Aishwarya</p>
+    <div class='child1' style="padding-left: 80px;"><a href="https://www.linkedin.com/in/aishwarya-s-b87740171/"></a> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a></div>
+    <div class='child1' style="padding-right: 37px;">Aishwarya</div>
+    <br>
+ 
+    <div class='child2' style="padding-left: 40px;"><a href="https://www.linkedin.com/in/rumesh-sree-k-g-74a21b18b/"></a> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a></div>
+    <div class='child2'>Rumesh</div>
+  </div>
 
 </div>
  
