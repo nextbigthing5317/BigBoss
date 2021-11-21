@@ -17,7 +17,6 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     color: white;
-    /* background-image: url('https://acegif.com/wp-content/gif/confetti-31.gif'); */
   }
   
   .container {
@@ -191,94 +190,9 @@
   .wrong {
     color: crimson;
   }
-
-
-
-
-  .social-media-link--facebook:before {
-    background-image: linear-gradient(45deg, #333333 0%, #333333 49%, #5F7AAE 50%);
-  }
-  
-  .social-media-link--twitter:before {
-    background-image: linear-gradient(45deg, #333333 0%, #333333 49%, #5AC2F0 50%);
-  }
-  
-  .social-media-link--instagram:before {
-    background-image: linear-gradient(45deg, #333333 0%, #333333 49%, #e900af 50%);
-  }
-  
-  .social-media-link--linkedin:before {
-    background-image: linear-gradient(45deg, #333333 0%, #333333 49%, #4390B5 50%);
-  }
-  
-  .social-media-link--youtube:before {
-    background-image: linear-gradient(45deg, #333333 0%, #333333 49%, #C34A47 50%);
-  }
-  
-  .social-media-links {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 10px;
-  }
-  
-  .social-media-link {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    position: relative;
-    transition: transform 0.5s ease-in-out;
-  }
-  .social-media-link > i {
-    z-index: 1;
-  }
-  .social-media-link:before {
-    width: 45px;
-    height: 45px;
-    border-radius: 4px;
-    content: "";
-    position: absolute;
-    background-size: 300%;
-    background-position: 0% 0%;
-    transition: background-position 0.55s cubic-bezier(0.79, 0.14, 0.15, 0.86);
-  }
-  .social-media-link:hover, .social-media-link:active, .social-media-link:focus {
-    transform: translateY(-16px);
-    /* This padding-bottom helps the pointer do stay inside the link,
-    avoiding the animation to flicker. */
-    padding-bottom: 32px;
-  }
-  .social-media-link:hover:before, .social-media-link:active:before, .social-media-link:focus:before {
-    background-position: top right;
-  }
-  .social-media-link + .social-media-link {
-    margin-left: 4px;
-  }
-
   
 #container{
     text-align: center;
-}
-
-.bg{
-  background-color: #252c4a;
-  color: white;
-  padding: 0px;
-
-  
-}
-
-
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
 }
 
 
@@ -298,9 +212,7 @@
   background-color: #AB2330
   ;
 }
-.jumbotron .container { 
-  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-}
+
 
 
 /* #06054b */
